@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Podaci o zdravstvenom radniku"/>
+
+    <ImageView
+        style="@style/TextViewStyle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_healing_black_24dp"/>
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ime:"/>
+
+    <TextView
+        android:id="@+id/imePacijenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="14dp"
+        android:text="Milan"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="14dp"
+        android:text="Prezime:"/>
+
+    <TextView
+        android:id="@+id/prezimePacijenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="14dp"
+        android:text="Milanovic"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="14dp"
+        android:text="Bolnica:"/>
+
+    <TextView
+        android:id="@+id/imeBolnice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="14dp"
+        android:text="Urgentni centar KCS"
+        android:textSize="20dp"/>
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnIzmeni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Izmeni"
+            android:textAllCaps="false"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="50dp"/>
+
+        <Button
+            android:id="@+id/btnOdjavi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odjavi"
+            android:textAllCaps="false"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="50dp"/>
+
+
+
+    </GridLayout>
+
+
+
+
+
+</LinearLayout>

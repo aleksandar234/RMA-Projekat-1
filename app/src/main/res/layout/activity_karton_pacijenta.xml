@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karton pacijenta"/>
+
+    <ImageView
+        style="@style/TextViewStyle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/karton1"/>
+
+    <EditText
+        android:id="@+id/imeEt"
+        style="@style/TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/prezimeEt"
+        style="@style/TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:text="Stanje pri prijemu"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/stanjePriPrijemu"
+        style="@style/TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Trenutno stanje"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/trenutnoStanje"
+        style="@style/TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Datum prijema"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/datumPrijema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="4.4.2020"/>
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnOdustani"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odustani"
+            android:textAllCaps="false"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"/>
+
+        <Button
+            android:id="@+id/btnIzmeni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Izmeni"
+            android:textAllCaps="false"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"/>
+
+
+
+    </GridLayout>
+
+
+
+
+
+</LinearLayout>

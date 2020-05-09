@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        style="@style/TextViewStyle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hospital"/>
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informacioni sistem za\n pracenje stanja\n pacijenata obolelih od\n Covid - 19"
+        android:gravity="center"
+        />
+
+
+    <EditText
+        android:id="@+id/firstName"
+        style="@style/TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unesite ime"/>
+
+    <EditText
+        android:id="@+id/lastName"
+        style="@style/TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unesite prezime"/>
+
+    <EditText
+        android:id="@+id/hospitalName"
+        style="@style/TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unesite ime bolnice u kojoj ste zaposleni" />
+
+    <EditText
+        android:id="@+id/pinEt"
+        style="@style/TextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Unesite pin"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnPrijava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prijava"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"/>
+
+
+
+</LinearLayout>

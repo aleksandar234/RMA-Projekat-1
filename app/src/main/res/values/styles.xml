@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/holo_blue_bright</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_bright</item>
+        <item name="colorAccent">@android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="TextViewStyle" parent="AppTheme">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_margin">15dp</item>
+    </style>
+
+    <style name="SplashScreen" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:orientation="vertical"
+    android:columnCount="2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="2"
+        android:text="Pregled brojnog stanja pacijenata"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:text="Broj pacijenata u cekaonici" />
+
+        <TextView
+            android:id="@+id/stanjeUCekaonici"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="200dp"
+            android:text="1"
+            android:textColor="@color/material_on_primary_emphasis_high_type"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Broj hospitalizovanih pacijenata"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/stanjeZaHospitalizaciju"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Broj otpustenih pacijenata"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/stanjeOtpustenih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"/>
+
+
+    </GridLayout>
+
+
+</LinearLayout>

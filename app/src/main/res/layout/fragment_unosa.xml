@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unos novog pacijenta"/>
+
+    <ImageView
+        style="@style/TextViewStyle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/add_pacient"
+        />
+
+    <EditText
+        android:id="@+id/unetiImeEt"
+        style="@style/TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unesi ime"/>
+
+    <EditText
+        android:id="@+id/unetiPrezimeEt"
+        style="@style/TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unesi prezime"/>
+
+    <EditText
+        android:id="@+id/unetiSimptome"
+        style="@style/TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unesi simptome i opste stanje pacijenata"/>
+
+    <Button
+        android:id="@+id/dodajUCekaonu"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dodaj u cekaonicu"
+        android:textAllCaps="false" />
+
+
+
+
+</LinearLayout>
